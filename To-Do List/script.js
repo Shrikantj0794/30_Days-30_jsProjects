@@ -33,4 +33,4 @@ function savedata(){
 function showTask(){
     listcontainer.innerHTML = localStorage.getItem("data");
 }
-// showTask();
+showTask();
