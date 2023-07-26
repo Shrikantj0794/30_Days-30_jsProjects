@@ -2,11 +2,13 @@ const notescontainer = document.querySelector(".notes-container");
 const createbtn = document.querySelector(".btn");
 let notes = document.querySelectorAll(".input-box");
 
+
 function showNotes (){
     notescontainer.innerHTML = localStorage.getItem("notes");
 } 
 showNotes();
 
+//localStorage
 function updateStorage(){
     localStorage.setItem("notes", notescontainer.innerHTML);
 }
