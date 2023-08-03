@@ -4,7 +4,6 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
-
 body{
     background: #222;
 }
@@ -37,7 +36,6 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,254,186,1) 100%
     margin-right: 16px;
     font-size: 18px;
 }
-
 .search button {
     border: 0;
     outline: 0;
