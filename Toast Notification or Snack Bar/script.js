@@ -16,7 +16,7 @@ function showToast(msg) {
         toast.classList.add('error');
     }
 
-    // setTimeout(()=>{
-    //     toast.remove()
-    // },4000)
+    setTimeout(()=>{
+        toast.remove()
+    },4000)
 }
