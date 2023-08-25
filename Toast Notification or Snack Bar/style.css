@@ -40,14 +40,14 @@ body{
     display: flex;
     align-items: center;
     position: relative;
-    /* transform: translateX(100%);
-    animation: movleft 0.5s linear forwards; */
+    transform: translateX(100%);
+    animation: movleft 0.5s linear forwards;
 }
-/* @keyframes movleft{
+@keyframes movleft{
     100%{
         transform: translateX(0);
     }
-} */
+}
 .toast i {
     margin: 0 20px;
     font-size: 30px;
@@ -69,7 +69,7 @@ body{
     height: 5px;
     background: green;
     animation: anim 4s linear forwards;
-    animation-delay: 1s;
+    /* animation-delay: 1s; */
 }
 .toast.error::after{
     background: red;
@@ -77,8 +77,8 @@ body{
 .toast.invalid::after{
     background: orange;
 }
-/* @keyframes anim {
+@keyframes anim {
     100%{
         width: 0;
     }
-} */
+}
