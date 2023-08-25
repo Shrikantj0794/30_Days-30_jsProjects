@@ -53,12 +53,12 @@ body{
     font-size: 30px;
     color: green;
 }
-/* .toast.error i {
+.toast.error i {
     color: red;
 }
 .toast.invalid i {
     color: orange;
-} */
+}
 
 .toast::after{
     content: '';
@@ -71,12 +71,12 @@ body{
     animation: anim 4s linear forwards;
     animation-delay: 1s;
 }
-/* .toast.error::after{
+.toast.error::after{
     background: red;
 }
 .toast.invalid::after{
     background: orange;
-} */
+}
 /* @keyframes anim {
     100%{
         width: 0;
