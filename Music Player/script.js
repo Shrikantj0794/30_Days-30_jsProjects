@@ -1,0 +1,1 @@
+let progress = document.getElementById("progress")
